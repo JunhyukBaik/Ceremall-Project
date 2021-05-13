@@ -13,20 +13,41 @@
             <input id="searchbar" type="text">
         </div>
         <div id="div_nav_header">
-            <ul>
-                <li>login</li>
-                <li>register</li>
+            <ul id="ul_header">
+                <li><a href="#" target="_self">login</a></li>
+                <li><a href="#" target="_self">register</a></li>
             </ul>
         </div>
     </header>
     <main>
         <div>
-            <nav>
-
+            <nav id="nav_main">
+                <ul id="ul_main_left">
+                    <li><a href="#" target="_self">category</a></li>
+                    <li><a href="#" target="_self">new</a></li>
+                    <li><a href="#" target="_self">best</a></li>
+                    <li><a href="#" target="_self">by company</a></li>
+                </ul>
+                <ul id="ul_main_right">
+                    <li><a href="#" target="_self">notice</a></li>
+                    <li><a href="#" target="_self">service</a></li>
+                </ul>
             </nav>
         </div>
-        <div>
-
+        <div class="slider">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <ul id="imgholder" class="imgs">
+                <li><img src="Archive/main_image_sample.png"></li>
+                <li><img src="Archive/main_image_sample2.png"></li>
+                <li><img src="Archive/main_image_sample3.png"></li>
+            </ul>
+            <div class="bullets">
+                <label for="slide1">&nbsp;</label>
+                <label for="slide2">&nbsp;</label>
+                <label for="slide3">&nbsp;</label>
+            </div>
         </div>
     </main>
 </body>
