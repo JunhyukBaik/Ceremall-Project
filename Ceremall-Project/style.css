@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 div {
-    border: 1px solid #222;
+    border: 1px solid #222; /*라인 표시용*/
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    border: 1px solid blue;
+    border: 1px solid blue; /*라인 표시용*/
     width: 1200px;
     height: 100px;
 }
@@ -24,12 +24,12 @@ header {
     float: left;
     width: 15%;
     height: 100%;
-    background-image: url("Archive/Logo_sample.png");
-    background-origin: border-box;
 }
 
 #logo_img {
-    
+    width: 179x;
+    height: 98px;
+    object-fit: cover;
 }
 
 #div_searchbar {
@@ -74,7 +74,7 @@ ul li {
 main{
     width: 100%;
     height: 800px;
-    border: 1px solid black;
+    border: 1px solid black; /*라인 표시용*/
     clear: left;
 }
 
